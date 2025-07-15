@@ -3,7 +3,7 @@ import openai
 
 st.set_page_config(page_title="RefineAI", layout="wide")
 
-st.image("logo.png", width=100)
+st.image("logo.jpg", width=100)
 st.title("RefineAI ✨ – AI-Powered Essay Rewriter")
 
 api_key = st.text_input("🔐 Enter your OpenAI API Key", type="password")
